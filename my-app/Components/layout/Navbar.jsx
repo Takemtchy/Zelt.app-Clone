@@ -58,7 +58,7 @@ useGSAP(() => {
           size={18} className={`transition-transform cursor-pointer duration-300 ${productHovered ? 'rotate-180' : 'rotate-0'}`} 
           /> 
           
-            <div ref={productMenuRef} className='absolute top-full left-1/2 -translate-x-1/2 mt-8  w-[900px] bg-white rounded-[30px] border border-white/40 shadow-[0_20px_50px_rgba(0,0,0,0.1)] pl-6 pr-12 py-12 flex gap-8  pointer-events-none opacity-0'>
+            <div ref={productMenuRef} className='absolute top-full left-1/2 -translate-x-1/2 mt-8  w-[900px] bg-white rounded-[30px] border border-white/40 shadow-[0_20px_50px_rgba(0,0,0,0.1)] pl-6 pr-12 py-12 flex gap-8  opacity-0'>
                 <div className='absolute -top-8 left-0 w-full h-10 bg-transparent'></div>
                 <div className='flex flex-col gap-6'>
                   <div>
@@ -117,7 +117,7 @@ useGSAP(() => {
          <RiArrowDownSLine 
           size={18} className={`transition-transform duration-300 cursor-pointer ${resourcesHovered ? 'rotate-180' : 'rotate-0'}`} 
           />         
-            <div ref={resourcesMenuRef} className='absolute top-full left-1/2 -translate-x-1/2 mt-8  w-[650px] bg-white rounded-[30px] border border-white/40 shadow-[0_20px_50px_rgba(0,0,0,0.1)] pl-6 pr-12 py-12 flex justify-between  pointer-events-none opacity-0 '>
+            <div ref={resourcesMenuRef} className='absolute top-full left-1/2 -translate-x-1/2 mt-8  w-[650px] bg-white rounded-[30px] border border-white/40 shadow-[0_20px_50px_rgba(0,0,0,0.1)] pl-6 pr-12 py-12 flex justify-between opacity-0 '>
                 <div className='absolute -top-8 left-0 w-full h-10 bg-transparent'></div>
                   <div className='flex flex-col gap-2 text-black/80'>
                     <h1 className='text-md font-medium hover:text-[#595C5D] cursor-pointer'>Knowledge Center</h1>
@@ -128,14 +128,14 @@ useGSAP(() => {
                   </div>
                   <div className=' -mt-5'>
                     <h3 className='text-gray-600 text-sm '>Featured</h3>
-                    <div className='pt-2 flex gap-4'>
+                    <div className='pt-2 flex gap-4 cursor-pointer hover:opacity-60'>
                       <Image src={'/images/resource1.webp'} alt='img1' width={120} height={100} className='rounded-[15px]' />
                       <div className='flex flex-col'>
                         <h4 className='text-sm text-gray-600'>Case Studies</h4>
                         <p className='text-[14px]'>Former Revolut execs choose<br />Zelt for Deblock</p>
                       </div>
                     </div>
-                    <div className='pt-2 flex gap-4'>
+                    <div className='pt-2 flex gap-4 cursor-pointer hover:opacity-60'>
                       <Image src={'/images/resource2.webp'} alt='img1' width={120} height={100} className='rounded-[15px]' />
                       <div className='flex flex-col'>
                         <h4 className='text-sm text-gray-600'>Case Studies</h4>

@@ -23,7 +23,7 @@ const Hero = () => {
       <div className='absolute -mt-64 z-0 -mb-40 w-full text-center text-black/90 flex flex-col gap-4 items-center pointer-events-auto'>
       <div className='w-full bg-[#E4E0DD] mt-[25vh] pt-12 pb-20 '>
         <h1 className='text-[4vw] leading-[3.8vw] font-normal'>Not just the best<br />HR software</h1>
-        <p className=' text-[1.6vw] leading-8 tracking-tight'>Zelt is the modern all-in-one HR software to effortlessly<br />manage all things people.</p>
+        <p className=' text-[1.6vw] leading-8 mt-6 tracking-tight'>Zelt is the modern all-in-one HR software to effortlessly<br />manage all things people.</p>
         <div className='flex gap-8 mt-4 items-center justify-center '>
           <Image src={'/images/Hero-1.webp'} alt='img'  width={200} height={300}  />
           <Image src={'/images/Hero-2.webp'} alt='img'  width={200} height={300}  />
