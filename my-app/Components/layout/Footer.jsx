@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='bg-[#2F2F2F] text-white mt-170 h-screen w-screen'>
+    <div className='bg-[#2F2F2F] text-white  h-screen w-screen'>
         <div className='h-full mx-40 flex flex-col gap-6'>
             <div className='h-2/5 '>
                 <h1 className='text-7xl pt-10 tracking-tight'>All-in-one HR Software</h1>
