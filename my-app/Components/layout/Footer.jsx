@@ -89,7 +89,7 @@ const Footer = () => {
 
                 </div>
                 <div className='p-3 h-full'>
-                    <Image src={'/images/QR.svg'} width={100} height={100} className='bg-white/40 rounded-xl p-2' />
+                    <Image src={'/images/QR.svg'} alt='qr' width={100} height={100} className='bg-white/40 rounded-xl p-2' />
                     <p className='text-sm -ml-4'>Scan with phone</p>
                 </div>
             </div>

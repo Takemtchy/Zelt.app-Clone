@@ -105,6 +105,7 @@ const Hero = () => {
           </div>
 
           <a
+            
             ref={arrowRef}
             href="#hero"
             aria-label="Scroll to hero section"
